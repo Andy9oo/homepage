@@ -1,0 +1,55 @@
+baseURL: "https://cullis.dev/"
+title: Andrew Cullis
+paginate: 3
+theme: PaperMod
+
+pluralizeListTitles: false
+
+params:
+    env: production
+    title: Andrew Cullis
+    description: "My personal website"
+    DateFormat: "January, 2006"
+    defaultTheme: auto
+    disableThemeToggle: false
+
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    disableSpecial1stPost: true
+
+    assets:
+        favicon: "<link / abs url>"
+        favicon16x16: "<link / abs url>"
+        favicon32x32: "<link / abs url>"
+        apple_touch_icon: "<link / abs url>"
+        safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: "Andrew Cullis"
+
+    homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: Welcome to my website
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/Andy9oo"
+        - name: linkedin
+          url: "https://linkedin.com/in/andrew-cullis"
+        - name: email
+          url: "mailto:andrew@cullis.dev"
+
+menu:
+    main:
+        - identifier: projects
+          name: Projects
+          url: /projects/
+          weight: 10
+        - identifier: experience
+          name: Experience
+          url: /experience/
+          weight: 20
+        - identifier: education
+          name: Education
+          url: /education/
+          weight: 30
