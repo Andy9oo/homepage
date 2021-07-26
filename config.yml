@@ -1,34 +1,29 @@
 baseURL: "https://cullis.dev/"
 title: Andrew Cullis
-paginate: 3
+paginate: 5
 theme: PaperMod
-
-pluralizeListTitles: false
 
 params:
     env: production
     title: Andrew Cullis
     description: "My personal website"
+
     DateFormat: "January, 2006"
-    defaultTheme: auto
-    disableThemeToggle: false
+    defaultTheme: dark
+
+    cover:
+      linkFullImages: true
+      responsiveImages: true
 
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
-    disableSpecial1stPost: true
-
-    assets:
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
 
     label:
+        icon: "/favicon.ico"
         text: "Andrew Cullis"
 
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
+        Title: "Hi, I'm Andrew \U0001F44B"
         Content: Welcome to my website
 
     socialIcons:
@@ -38,6 +33,8 @@ params:
           url: "https://linkedin.com/in/andrew-cullis"
         - name: email
           url: "mailto:andrew@cullis.dev"
+
+pluralizeListTitles: false
 
 menu:
     main:
@@ -53,3 +50,7 @@ menu:
           name: Education
           url: /education/
           weight: 30
+        - identifier: skills
+          name: Skills
+          url: /skills/
+          weight: 40
