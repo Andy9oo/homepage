@@ -1,9 +1,7 @@
 ---
-title: "Python"
-date: 2020-09-15T11:30:03+00:00
-tags: ["Typescript"]
+title: "Experience"
+tags: []
 draft: false
-description: ""
 hideSummary: false
 ShowReadingTime: false
 ShowBreadCrumbs: true
@@ -12,3 +10,9 @@ ShowBreadCrumbs: true
 #     alt: "Booking page screenshot"
 ---
 
+# Work Experience
+- Techairos (Intern)
+- Techairos (Software Engineer)
+
+# Volunteer Work
+- WeCode24

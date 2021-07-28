@@ -1,14 +1,14 @@
 ---
-title: "Golang"
-date: 2020-09-15T11:30:03+00:00
-tags: ["Golang"]
+title: "Laboh Gasboard"
+tags: []
 draft: false
-description: ""
+description: "Laboh Gas Business Dashboard"
 hideSummary: false
-ShowReadingTime: false
+ShowReadingTime: true
 ShowBreadCrumbs: true
 # cover:
 #     image: "images/inefsin.png"
 #     alt: "Booking page screenshot"
 ---
 
+This is a placeholder text

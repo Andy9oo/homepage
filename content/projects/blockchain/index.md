@@ -1,8 +1,8 @@
 ---
-title: "Flash Search Engine"
+title: "Blockchain"
 tags: []
 draft: false
-description: "Full-text search engine"
+description: "Implementation of blockchain algorithms written in Go"
 hideSummary: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
@@ -11,4 +11,4 @@ ShowBreadCrumbs: true
 #     alt: "Booking page screenshot"
 ---
 
-Flash search is a full-text search engine built for linux
+This is a placeholder text

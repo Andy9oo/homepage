@@ -1,9 +1,7 @@
 ---
-title: "AWS"
-date: 2020-09-15T11:30:03+00:00
-tags: ["Typescript"]
+title: "Education"
+tags: []
 draft: false
-description: ""
 hideSummary: false
 ShowReadingTime: false
 ShowBreadCrumbs: true
@@ -12,3 +10,9 @@ ShowBreadCrumbs: true
 #     alt: "Booking page screenshot"
 ---
 
+# Degrees
+- BSc Mathematical Sciences (Computer Science)
+- BSc Hons Computer Science 
+
+# Awards
+- Golden Key
