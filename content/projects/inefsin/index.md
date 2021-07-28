@@ -1,6 +1,5 @@
 ---
 title: "Inefsin Booking Site"
-date: 2020-09-15T11:30:03+00:00
 tags: ["Angular", "Firebase", "Serverless"]
 draft: false
 description: "Online booking site"
