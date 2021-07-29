@@ -10,9 +10,15 @@ ShowBreadCrumbs: true
 #     alt: "Booking page screenshot"
 ---
 
-# Degrees
-- BSc Mathematical Sciences (Computer Science)
-- BSc Hons Computer Science 
+### BSc Hons, Computer Science (*cum laude*) 
+*2020*
+
+---
+
+### BSc, Mathematical Sciences & Computer Science (*cum laude*)
+*2017 - 2019*
 
 # Awards
-- Golden Key
+
+### Golden Key International Honours Socity
+*2017, 2018, 2019, 2020*
