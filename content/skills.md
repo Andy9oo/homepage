@@ -19,6 +19,7 @@ ShowBreadCrumbs: true
     <img id="java" style="margin: 0.25rem" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" /> 
     <img id="python" style="margin: 0.25rem" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> 
     <img id="c" style="margin: 0.25rem" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" /> 
+    <img id="dart" style="margin: 0.25rem" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" /> 
 </div>
 
 ### Frameworks
@@ -44,9 +45,10 @@ ShowBreadCrumbs: true
 <div style="display: flex; flex-direction: row; flex-wrap: wrap">
     <img id="vscode" style="margin: 0.25rem" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
     <img id="travis" style="margin: 0.25rem" src="https://img.shields.io/badge/travis_CI-3EAAAF?style=for-the-badge&logo=travisci&logoColor=white" />
+    <img id="github" style="margin: 0.25rem" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+    <img id="bitbucket" style="margin: 0.25rem" src="https://img.shields.io/badge/Bitbucket-330F63?style=for-the-badge&logo=bitbucket&logoColor=white" />
     <img id="linux" style="margin: 0.25rem" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
     <img id="postman" style="margin: 0.25rem" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" />
     <img id="latex" style="margin: 0.25rem" src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=LaTeX&logoColor=white" />
     <img id="ngix" style="margin: 0.25rem" src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
-    <!-- Bitbucket & github -->
 </div>
