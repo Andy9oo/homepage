@@ -36,6 +36,11 @@ params:
 
 pluralizeListTitles: false
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 menu:
     main:
         - identifier: projects
