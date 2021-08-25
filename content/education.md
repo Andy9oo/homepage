@@ -13,6 +13,14 @@ ShowBreadCrumbs: true
 ### BSc Hons, Computer Science (*cum laude*) 
 *2020*
 
+**Modules**
+- Computational Inteligence
+- Advanced Algorithms
+- Software Contruction
+- Functional Programming
+- Digital Image Processing
+- Machine Learning
+
 ---
 
 ### BSc, Mathematical Sciences & Computer Science (*cum laude*)
