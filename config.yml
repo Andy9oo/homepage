@@ -12,8 +12,8 @@ params:
     defaultTheme: dark
 
     cover:
-      linkFullImages: true
-      responsiveImages: true
+      linkFullImages: false
+      responsiveImages: false
 
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
