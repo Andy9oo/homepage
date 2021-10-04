@@ -12,6 +12,10 @@ params:
     DateFormat: "January, 2006"
     defaultTheme: dark
 
+    minify:
+      disableXML: true
+      minifyOutput: true
+
     cover:
       linkFullImages: false
       responsiveImages: true
