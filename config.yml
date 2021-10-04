@@ -1,4 +1,5 @@
-baseURL: "https://cullis.dev/"
+# baseURL: "https://cullis.dev/"
+baseURL: "https://epic-leakey-934e81.netlify.app/"
 title: Andrew Cullis
 paginate: 5
 theme: PaperMod
@@ -19,7 +20,7 @@ params:
     ShowCodeCopyButtons: true
 
     label:
-        icon: "/favicon.ico"
+        icon: "favicon.ico"
         text: "Andrew Cullis"
 
     homeInfoParams:
