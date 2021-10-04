@@ -1,5 +1,4 @@
-# baseURL: "https://cullis.dev/"
-baseURL: "https://epic-leakey-934e81.netlify.app/"
+baseURL: "https://cullis.dev/"
 title: Andrew Cullis
 paginate: 5
 theme: PaperMod
@@ -10,7 +9,7 @@ params:
     description: "My personal website"
 
     DateFormat: "January, 2006"
-    defaultTheme: dark
+    defaultTheme: light
 
     minify:
       disableXML: true
