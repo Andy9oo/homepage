@@ -18,7 +18,7 @@ Flash is a full-text desktop search engine, designed to help users find their fi
 
 There are several other tools that a user can use to search their file system, such as `find` and `grep`. These tools work well for specific use cases; however, they each have drawbacks. `find` can only search for file names, and `grep` has to crawl the file system for each search.
 
-Flash solves both of these problems, by building an inverted index to perform a full-text search over the file system, without the need to crawl it each time. Comparing it's performance to `grep` (as shown below), `flash` can search various datasets in near-constant time, well outperforming grep and providing a much better user experience. 
+Flash solves both of these problems, by building an inverted index to perform a full-text search over the file system, without the need to crawl it each time. Comparing its performance to `grep` (as shown below), `flash` can search various datasets in near-constant time, well outperforming grep and providing a much better user experience. 
 
 ![grep](/images/projects/flash/grep.webp)
 
