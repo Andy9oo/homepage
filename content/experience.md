@@ -6,7 +6,7 @@ hideSummary: false
 ShowReadingTime: false
 ShowBreadCrumbs: true
 cover:
-  image: "images/work_experience.jpg"
+  image: "images/work_experience.webp"
   alt: "Work Experience"
 ---
 
