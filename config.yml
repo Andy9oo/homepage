@@ -20,7 +20,7 @@ params:
     ShowCodeCopyButtons: true
 
     label:
-        icon: "favicon.ico"
+        icon: "/favicon.ico"
         text: "Andrew Cullis"
 
     homeInfoParams:
