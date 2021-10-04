@@ -6,7 +6,7 @@ hideSummary: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 cover:
-    image: "/images/projects/flash/cover.png"
+    image: "images/projects/flash/cover.png"
     alt: "Flash screenshot"
 ---
 

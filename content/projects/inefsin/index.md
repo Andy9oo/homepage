@@ -6,7 +6,7 @@ hideSummary: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 cover:
-    image: "/images/projects/inefsin/cover.png"
+    image: "images/projects/inefsin/cover.png"
     alt: "Booking page screenshot"
 ---
 
