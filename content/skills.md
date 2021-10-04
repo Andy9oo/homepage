@@ -5,9 +5,6 @@ draft: false
 hideSummary: false
 ShowReadingTime: false
 ShowBreadCrumbs: true
-# cover:
-#     image: "images/inefsin.png"
-#     alt: "Booking page screenshot"
 ---
 
 ### Languages

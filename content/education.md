@@ -7,20 +7,21 @@ ShowReadingTime: false
 ShowBreadCrumbs: true
 cover:
     image: "images/education.png"
-    alt: "Student icon"
+    alt: "Education"
 
 ---
-## Degrees 
+## Degrees 🎓
 
-### BSc Hons, Computer Science (*cum laude*) 
-*2020*
+**BSc Hons, Computer Science (*cum laude*)** <br/> 
+University of Stellenbosch <br/>
+*Jan 2020 - Dec 2020*
 
----
 
-### BSc, Mathematical Sciences & Computer Science (*cum laude*)
-*2017 - 2019*
+**BSc, Mathematical Sciences & Computer Science (*cum laude*)** <br/>
+University of Stellenbosch <br/>
+*Jan 2017 - Dec 2019*
 
-## Awards
+## Awards 🏆
 
-### Golden Key International Honours Socity
+**Golden Key International Honours Socity** <br/>
 *2017, 2018, 2019, 2020*

@@ -1,16 +1,21 @@
 ---
-title: "Inefsin Booking Site"
-tags: ["Angular", "Firebase", "Serverless"]
+title: "Inefsin Booking Site 🎣"
 draft: false
 description: "Online booking site"
 hideSummary: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 cover:
-    image: "images/inefsin.png"
+    image: "images/cover.png"
     alt: "Booking page screenshot"
 ---
 
-# Inefsin
+This project was developed for the Inefsin fishing syndicate, to allow members to book cottages online. Members can log in to the website to view available dates on the calendar, and submit booking requests. 
 
-This project was developed for the Inefsin fishing syndicate, to allow members to book cottages online. Members can log in to the website to view available dates on the calendar, and submit booking requests. Admins can then review these booking requests and either accept or reject them, emailing users the result. The project runs serverless, using Google's Firebase as a back-end, and AngularJS for the front-end.
+![booking view](images/inefsin.png)
+
+Admins can review these booking request in a separate pannel and either accept or reject them, emailing users the result.
+
+![admin view](images/admin.png)
+
+ The project runs as a serverless project, using Google's Firebase and cloud functions as a backend, and Angular for the front-end. In addition to this, SendGrid was used to handle all transational emails, to both admins and users.
