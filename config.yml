@@ -14,7 +14,7 @@ params:
 
     cover:
       linkFullImages: false
-      responsiveImages: false
+      responsiveImages: true
 
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
