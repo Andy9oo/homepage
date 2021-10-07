@@ -14,7 +14,7 @@ This project was developed for the Inefsin fishing syndicate, to allow members t
 
 ![booking view](/images/projects/inefsin/inefsin.webp)
 
-Admins can review these booking request in a separate pannel and either accept or reject them, emailing users the result.
+Admins can review these booking requests in a separate panel and either accept or reject them, emailing users the result.
 
 ![admin view](/images/projects/inefsin/admin.webp)
 
