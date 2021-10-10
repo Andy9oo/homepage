@@ -23,5 +23,5 @@ University of Stellenbosch <br/>
 
 ## Awards 🏆
 
-**Golden Key International Honours Socity** <br/>
+**Golden Key International Honours Society** <br/>
 *2017, 2018, 2019, 2020*
