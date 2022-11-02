@@ -1,0 +1,20 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info" style="display: flex; flex-direction: column; justify-content: center;">
+  <div style="display: flex; flex-direction: row; justify-content: space-between">
+  <div>
+    <header class="entry-header" style="margin: 0;">
+      <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <section class="entry-content">
+      {{- trim .Content "\n" | markdownify -}}
+    </section>
+    <footer class="entry-footer">
+      {{- partial "social_icons.html" (dict "icons" site.Params.socialIcons "svg" $.Site.Data.svg "MaskedEmail" site.Params.MaskedEmail "Email" site.Params.Email) -}}
+    </footer>
+  </div>
+  <div style="width: 10rem; overflow: hidden;">
+    <img src="images/profile.png" style="border-radius: 50%;" />
+  </div>
+</div>
+</article>
+{{- end -}}
