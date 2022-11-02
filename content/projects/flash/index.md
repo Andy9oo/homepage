@@ -6,7 +6,7 @@ hideSummary: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 cover:
-    image: "images/projects/flash/cover.webp"
+    image: "cover.png"
     alt: "Flash screenshot"
 ---
 
@@ -20,10 +20,10 @@ There are several other tools that a user can use to search their file system, s
 
 Flash solves both of these problems, by building an inverted index to perform a full-text search over the file system, without the need to crawl it each time. Comparing its performance to `grep` (as shown below), `flash` can search various datasets in near-constant time, well outperforming grep and providing a much better user experience. 
 
-![grep](/images/projects/flash/grep.webp)
+{{<figure src="./grep.png">}}
 
 In addition to the command line interface shown above `flash` has a GUI, which was developed using the GTK3 framework, that a user can use to quickly find files. The `flash gui` command can be bound to any keyboard shortcut to quickly bring up the search box, shown below.
 
-![gui](/images/projects/flash/results.webp)
+{{<figure src="./results.png">}}
 
 To get started with flash, follow the instructions listed on the [github page](https://github.com/Andy9oo/flash).

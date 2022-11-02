@@ -1,7 +1,7 @@
 baseURL: "https://andrew.cullis.dev/"
 title: Andrew Cullis
 paginate: 5
-theme: PaperMod
+theme: PaperModX
 
 params:
     env: production
@@ -21,14 +21,15 @@ params:
 
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
+    ShowPostNavLinks: true
 
     label:
         icon: "/favicon.ico"
         text: "Andrew Cullis"
 
     homeInfoParams:
-        Title: "Hi, I'm Andrew \U0001F44B"
-        Content: Welcome to my website
+        Title: Hi, I'm Andrew 👋
+        Content: Welcome to my portfolio!
 
     socialIcons:
         - name: github
@@ -50,16 +51,16 @@ menu:
         - identifier: projects
           name: Projects
           url: /projects/
-          weight: 10
+          weight: 1
         - identifier: experience
           name: Experience
           url: /experience/
-          weight: 20
+          weight: 2
         - identifier: education
           name: Education
           url: /education/
-          weight: 30
+          weight: 3
         - identifier: skills
           name: Skills
           url: /skills/
-          weight: 40
+          weight: 4
