@@ -6,7 +6,7 @@ hideSummary: false
 ShowReadingTime: false
 ShowBreadCrumbs: true
 cover:
-    image: "education.png"
+    image: "education.webp"
     alt: "Education"
 
 ---
