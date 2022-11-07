@@ -12,7 +12,7 @@
       {{- partial "social_icons.html" (dict "icons" site.Params.socialIcons "svg" $.Site.Data.svg "MaskedEmail" site.Params.MaskedEmail "Email" site.Params.Email) -}}
     </footer>
   </div>
-  <img src="images/profile.webp" style="width: 10rem; height: 10rem; overflow: hidden;border-radius: 50%;" alt="profile picture"/>
+  <img src="images/profile.webp" style="width: 10rem; height: 10rem; aspect-ratio: 1/1; overflow: hidden; border-radius: 50%;" alt="profile picture"/>
 </div>
 </article>
 {{- end -}}
