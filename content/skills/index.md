@@ -9,7 +9,7 @@ ShowBreadCrumbs: true
 
 <!-- Use to get badges: https://github.com/Ileriayo/markdown-badges -->
 
-### Languages
+## Languages
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap">
     <!-- Python --> {{<skill_tag src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">}}
@@ -19,7 +19,7 @@ ShowBreadCrumbs: true
     <!-- Java --> {{<skill_tag src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">}} 
 </div>
 
-### Frameworks & Technologies
+## Frameworks & Technologies
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap">
     <!--  AWS --> {{<skill_tag src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">}}
@@ -42,7 +42,7 @@ ShowBreadCrumbs: true
     <!-- NativeScript --> {{<skill_tag src="https://img.shields.io/badge/Nativescript-3655FF?style=for-the-badge&logo=Nativescript&logoColor=white">}}
 </div>
 
-### Tools
+## Tools
 
 <div style="display: flex; flex-direction: row; flex-wrap: wrap">
     <!-- VSCode --> {{<skill_tag src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">}}
