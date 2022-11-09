@@ -61,12 +61,12 @@ I started working at Techairos part-time during my second year at Stellenbosch U
 
 # Volunteer Work
 
-<div style="display: flex; justify-content: flex-start;">
-    <div style="width: 3rem; margin-right: 1rem">
-        <img src="wecode24.webp" style="border-radius: 8px; margin-top: 1.5rem" />
-    </div>
-    <h3><a href="https://wecode24.com/">WeCode24 (Facilitator)</a></h3>
-</div>
+{{< 
+  work_experience_title 
+  logo="wecode24.webp" 
+  link="https://wecode24.com/"
+  title="WeCode24 (Facilitator)"
+>}}
 
 **_Mar 2018 – Aug 2018_**
 
