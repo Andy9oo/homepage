@@ -52,7 +52,7 @@ On the non-technical side of things, I was heavily involved in the design proces
   work_experience_title 
   logo="techairos.webp" 
   link="https://techairos.com/"
-  title="Techairos Consulting (Software Engineer)"
+  title="Techairos Consulting (Intern / Part Time)"
 >}}
 
 **_Sep 2018 - Jul 2019_**
@@ -65,7 +65,7 @@ I started working at Techairos part-time during my second year at Stellenbosch U
     <div style="width: 3rem; margin-right: 1rem">
         <img src="wecode24.webp" style="border-radius: 8px; margin-top: 1.5rem" />
     </div>
-    <h3><a href="https://wecode24.com/">WeCode24</a></h3>
+    <h3><a href="https://wecode24.com/">WeCode24 (Facilitator)</a></h3>
 </div>
 
 **_Mar 2018 – Aug 2018_**
