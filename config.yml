@@ -17,7 +17,7 @@ params:
 
     cover:
       linkFullImages: false
-      responsiveImages: true
+      responsiveImages: false
 
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
@@ -48,16 +48,16 @@ markup:
 
 menu:
     main:
-        - identifier: projects
-          name: Projects
-          url: /projects/
-          weight: 1
         - identifier: experience
           name: Experience
           url: /experience/
+          weight: 1
+        - identifier: projects
+          name: Projects
+          url: /projects/
           weight: 2
         - identifier: education
-          name: Education
+          name: Education & Awards
           url: /education/
           weight: 3
         - identifier: skills

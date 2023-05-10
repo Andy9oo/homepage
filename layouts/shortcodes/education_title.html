@@ -1,0 +1,10 @@
+<div style="display: flex; justify-content: flex-start;">
+    <div style="width: 5rem; margin-right: 1rem;">
+        <img src="{{ .Get `logo` }}" alt="{{ .Get `title`}} logo" style="border-radius: 8px; margin-top: 1.5rem;" />
+    </div>
+    <div>
+        <h3 style="margin-bottom: 0.5rem;">{{ .Get "title" }}</h3>
+        <div><b>{{ .Get "description" }}</b></div>
+        <i>{{ .Get "period" }}</i>
+    </div>
+</div>
