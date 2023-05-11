@@ -1,20 +1,77 @@
 {{- with site.Params.homeInfoParams }}
-<article class="first-entry home-info" style="display: flex; flex-direction: column; justify-content: center;">
-  <div style="display: flex; flex-direction: row; justify-content: space-between">
-  <div>
-    <header class="entry-header" style="margin: 0;">
-      <h1>{{ .Title | markdownify }}</h1>
-    </header>
-    <section class="entry-content">
-      {{- trim .Content "\n" | markdownify -}}
-    </section>
-    <footer class="entry-footer">
-      {{- partial "social_icons.html" (dict "icons" site.Params.socialIcons "svg" $.Site.Data.svg "MaskedEmail" site.Params.MaskedEmail "Email" site.Params.Email) -}}
-    </footer>
+<style>
+  body {
+    overflow: hidden;
+  }
+  .blob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+    animation: move 20s ease-in-out infinite;
+    transform-origin: 50% 50%;
+  }
+
+  @keyframes move {
+    0% {
+      transform: scale(1) translate(1vw, -5vw);
+    }
+    38% {
+      transform: scale(0.8, 1) translate(50vw, 30vh) rotate(160deg);
+    }
+    40% {
+      transform: scale(0.8, 1) translate(50vw, 30vh) rotate(160deg);
+    }
+    78% {
+      transform: scale(1.3) translate(-50vw, 40vh) rotate(-20deg);
+    }
+    80% {
+      transform: scale(1.3) translate(-50vw, 40vh) rotate(-20deg);
+    }
+    100% {
+      transform: scale(1) translate(1vw, -5vw);
+    }
+  }
+</style>
+
+<article
+  class="first-entry home-info"
+  style="display: flex; flex-direction: column; justify-content: center"
+>
+  <div
+    style="display: flex; flex-direction: row; justify-content: space-between"
+  >
+    <div>
+      <header class="entry-header" style="margin: 0">
+        <h1>{{ .Title | markdownify }}</h1>
+      </header>
+      <section class="entry-content">
+        {{- trim .Content "\n" | markdownify -}}
+      </section>
+      <footer class="entry-footer">
+        {{- partial "social_icons.html" (dict "icons" site.Params.socialIcons
+        "svg" $.Site.Data.svg "MaskedEmail" site.Params.MaskedEmail "Email"
+        site.Params.Email) -}}
+      </footer>
+    </div>
+    <div style="width: 10rem; overflow: hidden">
+      <img
+        src="images/profile.webp"
+        style="border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%"
+        alt="profile picture"
+      />
+    </div>
+
+    <div class="blob">
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <path
+          fill="#08BDBA"
+          d="M48.4,-61.6C60.6,-47.4,67.1,-30.2,68.2,-13.6C69.3,3.1,65,19.1,57.7,34.8C50.4,50.5,40,66,27,68C14,70.1,-1.7,58.9,-19.9,53C-38.2,47.1,-59,46.6,-66,36.9C-72.9,27.3,-66,8.4,-58.7,-6.4C-51.4,-21.3,-43.8,-32.2,-33.9,-46.7C-24.1,-61.3,-12,-79.6,3,-83.2C18.1,-86.8,36.2,-75.7,48.4,-61.6Z"
+          transform="translate(100 100)"
+        />
+      </svg>
+    </div>
   </div>
-  <div style="width: 10rem; overflow: hidden">
-    <img src="images/profile.webp" style="border-radius: 50%;" alt="profile picture"/>
-  </div>
-</div>
 </article>
 {{- end -}}
