@@ -3,9 +3,8 @@
   .blob {
     border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
     width: 12rem;
-    height: 12rem;
-    background: #f09;
-    background-image: linear-gradient(45deg, #3023ae 0%, #f09 100%);
+    aspect-ratio: 1 / 1;
+    background-image: linear-gradient(45deg, #1A2745 0%, #5c90e3 100%);
     animation: morph 10s linear infinite alternate;
     display: flex;
     align-items: center;
@@ -15,8 +14,8 @@
   .blob img {
     border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
     animation: morph 10s linear infinite alternate;
-    width: 9rem;
-    height: 9rem;
+    width: 80%;
+    aspect-ratio: 1;
   }
 
   @keyframes morph {
